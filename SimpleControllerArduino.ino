@@ -3,7 +3,6 @@ int merah=11;
 int biru=10;
 void setup() {
   Serial.begin(9600);
-  Serial.println("Enter Command!");
   pinMode(merah,OUTPUT);
   pinMode(hijau,OUTPUT);
   pinMode(biru,OUTPUT);
@@ -19,7 +18,6 @@ void loop() {
     if (rx_byte != '\n') {
       // a character of the string was received
       rx_str += rx_byte;
-      Serial.println(rx_str);
     }
     else {
       // end of string
