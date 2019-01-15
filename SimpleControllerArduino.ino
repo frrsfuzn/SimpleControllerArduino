@@ -23,12 +23,12 @@ void loop() {
     }
     else {
       // end of string
-      if(rx_str == "a1"){
-        digitalWrite(hijau,HIGH);
-        rx_str="";
-      }else if(rx_str=="a0"){
-        digitalWrite(hijau,LOW);
-        rx_str="";
+      if(rx_str == "a1"){         //Jika user menginputkan a1
+        digitalWrite(hijau,HIGH); //LED Hijau Menyala
+        rx_str="";                //Kosongkan masukan user
+      }else if(rx_str=="a0"){     //Jika user menginputkan a0
+        digitalWrite(hijau,LOW);  //LED Hijau Mati
+        rx_str="";                //Kosongkan masukan user
       }else if(rx_str=="b1"){
         digitalWrite(merah,HIGH);
         rx_str="";
