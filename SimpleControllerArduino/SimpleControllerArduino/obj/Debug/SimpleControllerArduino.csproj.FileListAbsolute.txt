@@ -1,0 +1,10 @@
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\bin\Debug\SimpleControllerArduino.exe.config
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\bin\Debug\SimpleControllerArduino.exe
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\bin\Debug\SimpleControllerArduino.pdb
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.csprojAssemblyReference.cache
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.Form1.resources
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.Properties.Resources.resources
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.csproj.GenerateResource.cache
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.csproj.CoreCompileInputs.cache
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.exe
+E:\Data Fauzan\Files\Document\Visual Studio\C#\SimpleControllerArduino\SimpleControllerArduino\obj\Debug\SimpleControllerArduino.pdb
