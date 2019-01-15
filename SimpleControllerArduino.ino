@@ -1,8 +1,9 @@
-int hijau=12;
-int merah=11;
+int merah=12;
+int hijau=11;
 int biru=10;
 void setup() {
   Serial.begin(9600);
+  Serial.println("Enter Command!");
   pinMode(merah,OUTPUT);
   pinMode(hijau,OUTPUT);
   pinMode(biru,OUTPUT);
@@ -21,23 +22,23 @@ void loop() {
     }
     else {
       // end of string
-      if(rx_str == "a1"){         //Jika user menginputkan a1
-        digitalWrite(hijau,HIGH); //LED Hijau Menyala
-        rx_str="";                //Kosongkan masukan user
-      }else if(rx_str=="a0"){     //Jika user menginputkan a0
-        digitalWrite(hijau,LOW);  //LED Hijau Mati
-        rx_str="";                //Kosongkan masukan user
-      }else if(rx_str=="b1"){
+      if(rx_str == "m1"){
         digitalWrite(merah,HIGH);
         rx_str="";
-      }else if(rx_str=="b0"){
+      }else if(rx_str=="m0"){
         digitalWrite(merah,LOW);
         rx_str="";
-      }else if(rx_str=="c1"){
+      }else if(rx_str=="b1"){
         digitalWrite(biru,HIGH);
         rx_str="";
-      }else if(rx_str=="c0"){
+      }else if(rx_str=="b0"){
         digitalWrite(biru,LOW);
+        rx_str="";
+      }else if(rx_str=="h1"){
+        digitalWrite(hijau,HIGH);
+        rx_str="";
+      }else if(rx_str=="h0"){
+        digitalWrite(hijau,LOW);
         rx_str="";
       }
       else{
